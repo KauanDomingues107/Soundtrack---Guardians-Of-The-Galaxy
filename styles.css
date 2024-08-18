@@ -33,13 +33,6 @@ header {
     opacity: 1;
 }
 
-.gotg {
-    padding-bottom: 1px;
-    background: none;
-    display: flex;
-    justify-content: center;
-}
-
 .bottom {
     background: #3870BD;
     padding-top: 1%;
