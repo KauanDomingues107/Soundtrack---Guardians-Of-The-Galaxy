@@ -35,7 +35,7 @@ header {
 
 .gotg {
     padding-bottom: 1px;
-    background: #13286B;
+    background: none;
     display: flex;
     justify-content: center;
 }
