@@ -1,0 +1,165 @@
+body {
+    background: black;
+    color: black;
+    box-shadow: 0 4px 10px #529EE9;
+}
+
+header {
+    background-image: url(Galaxy.webp);
+    color: #3870BD;
+    box-shadow: 0 4px 10px #529EE9;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px #bbdeff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    transition: opacity 0.3s ease;
+}
+
+.buttons button {
+    opacity: 0.7;
+    font-size: 20px;
+    color: #529EE9;
+    background: none;
+    border: none;
+}
+
+.buttons button:hover {
+    text-shadow: 0 0 10px #bbdeff;
+    opacity: 1;
+}
+
+.gotg {
+    padding-bottom: 1px;
+    background: #13286B;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    background: #3870BD;
+    padding-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+    border-top: solid #13286B 1px;
+    justify-content: center;
+}
+
+.bottom iframe{
+    box-shadow: 0 0 14px #0a2980;
+    
+}
+
+.musics {
+    background: #3870BD;
+    padding-top: 1px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.musicsl {
+    width: 100%;
+    gap: 10px;
+}
+
+
+.musicsl iframe{
+    box-shadow: 0 0 14px #0a2980;
+}
+
+
+/*Headings*/
+h1 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: -2px 2px #AB7D41;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0 0 10px #bbdeff;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 10px #bbdeff;
+    color: white;
+    padding-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #181702;
+}
+
+
+.sub {
+    justify-content: center;
+    font-size: 20px;
+    color: #0c1430;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+
+/*From here, styles trailers*/
+
+.trailers-lettering {
+    justify-content: center;
+    background: #3870BD;
+    padding: 1px;
+}
+
+.trailers {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background: #3870BD;
+    justify-content: center;
+}
+
+.videos img {
+    height: 300px;
+    overflow-x: auto;
+    opacity: 1;
+}
+
+.videos img:hover {
+    opacity: 0.7;
+    border: solid #529EE9 3px;
+    border-radius: 2px;
+    text-shadow: 0 0 10px #9fa7e9;
+}
+
+.movie-description {
+    color: #8cc5ff;
+    font-size: 23px;
+    text-align: center;
+    text-shadow: 0 0 10px #bbdeff;
+}
+
+.info-text-section {
+    padding-bottom: 50px;
+}
+
+.text-info {
+    padding-top: 20px;
+    justify-content: center;
+    color: #8cc5ff;
+    font-size: 23px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-shadow: 0 0 10px #bbdeff;
+}
